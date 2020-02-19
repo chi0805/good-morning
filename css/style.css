@@ -7,18 +7,40 @@ html {
 }
 
 body {
-    font-size: 3.5rem;
     font-family: YuGothic, '游ゴシック','Noto Sans JP',"Meiryo","メイリオ","ＭＳ Ｐゴシック",sans-serif;
     text-align: center;
-    font-weight: 300;
-    background-image: url('../images/index-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .header {
     height: 80px;
     line-height: 80px;
+    font-weight: 300;
+    font-size: 3.5rem;
     background-color: #ffb6c1;
     color: #696969;
+    opacity: 0.8;
+}
+
+.introduce {
+    background-image: url('../images/index-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position: top center;
+    height: 800px;
+    margin: 50px;
+}
+
+.breakfast-wrapper {
+    width: 100%;
+    font-size: 2.0rem;
+    font-weight: 300;
+}
+
+.breakfast-box {
+    display: inline-block;
+    width: 25%;
+}
+
+.breakfast-image {
+    width: 100%;
 }
